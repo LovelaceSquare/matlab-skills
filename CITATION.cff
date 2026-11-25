@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use these skills, please cite them using this metadata."
+type: software
+title: "MATLAB skills for AI agents"
+version: "0.2.0"
+date-released: 2026-11-25
+authors:
+  - family-names: "Gómez-Sánchez"
+    given-names: "Adrián"
+repository-code: "https://github.com/LovelaceSquare/matlab-skills"
+url: "https://lovelacesquare.org"
+license: MIT
+keywords:
+  - matlab
+  - ai-agents
+  - agent-skills
+  - claude-code
+  - codex

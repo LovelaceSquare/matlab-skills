@@ -1,0 +1,14 @@
+{
+  "name": "matlab-skills",
+  "owner": {
+    "name": "Lovelace's Square"
+  },
+  "description": "MATLAB skills for AI agents, from Lovelace's Square.",
+  "plugins": [
+    {
+      "name": "matlab",
+      "source": "./",
+      "description": "Skills for working in MATLAB as an agent: running code without its window, the person's open session, data files, figures for papers, other people's code, writing code that lasts and apps with an HTML screen."
+    }
+  ]
+}

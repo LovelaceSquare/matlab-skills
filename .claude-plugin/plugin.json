@@ -1,0 +1,24 @@
+{
+  "name": "matlab",
+  "displayName": "MATLAB",
+  "version": "0.2.0",
+  "description": "Skills for working in MATLAB as an agent: running code without its window, the person's open session, data files, figures for papers, other people's code, writing code that lasts and apps with an HTML screen.",
+  "author": {
+    "name": "Ada Essential Commons"
+  },
+  "keywords": [
+    "matlab",
+    "matlab -batch",
+    "matlab engine",
+    "toolbox",
+    "readtable",
+    "mat-file",
+    "figures",
+    "exportgraphics",
+    "help header",
+    "licence",
+    "uifigure",
+    "uihtml",
+    "app"
+  ]
+}
