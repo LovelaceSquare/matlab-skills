@@ -1,33 +1,43 @@
-# MATLAB skills for AI agents
+# Help your AI assistant work in MATLAB
 
-Seven skills that teach an AI agent to work in MATLAB the way a careful person would: run code and check how it ended, read and write data files without changing the numbers, make figures at the size a journal asks, use other people's code safely, write well-documented functions and build small apps.
+Seven short guides that an AI assistant reads before it works in MATLAB for you. They help it work the way a careful person would.
 
-They are about MATLAB itself, not about any method: no statistics, chemometrics or signal-processing recipes. The facts in them were checked in MATLAB R2024a on Windows; each skill says what it could not check.
+With them, the assistant:
 
-Part of [Lovelace's Square](https://lovelacesquare.org), the open hub for chemometrics code, data and teaching material.
+- runs your code and checks whether it really worked;
+- reads your data files without changing the numbers;
+- makes figures at the size a journal asks for;
+- uses code written by other people safely;
+- writes tidy, well-explained functions;
+- builds small apps with buttons and windows.
+
+The guides are about using MATLAB well. They do not teach any scientific method. They were checked in MATLAB R2024a on Windows, and each guide says what could not be checked.
+
+Part of [Lovelace's Square](https://lovelacesquare.org), the open home for chemometrics code, data and teaching material.
 
 ---
 
-## Skills
+## The seven guides
 
-| Skill | Why it is here |
+| Guide | What it helps with |
 |---|---|
-| `matlab-run` | Finding the launcher, `-batch` runs that start from nothing, seeing results without a window, working out memory before a large step, loops that grow, what waits for a person, exit codes and logs, not overwriting; common errors with causes in `references/`. |
-| `matlab-shared-session` | Connecting to the MATLAB the person has open (`shareEngine`, the Python engine), looking before touching, and leaving their workspace, path and settings as they were. |
-| `matlab-data-files` | Looking at a file before reading it, import options for numeric headers, `;` with decimal commas and mixed columns, `.mat` versions, checks on what arrived, and writing without silent overwrites or stale rows. |
-| `matlab-figures` | Figures built at their final size, `exportgraphics` against `print` when the size has to be exact, measuring the exported file and looking at it. |
-| `matlab-third-party-code` | What is installed and licensed, which of several functions with one name will run, reading help and source before calling, dependencies, and the licence of code that is not the person's. |
-| `matlab-writing-code` | Asking how strict to be and which licence, the help header (syntax, inputs and outputs, runnable example, author and citation), `arguments` checks, errors with identifiers, and checks before handing over. |
-| `matlab-app-design` | Apps as a `uifigure` with an HTML screen: layers, messages between page and MATLAB, every click also callable from a script, pictures taken hidden and looked at; default design values in `references/`. |
+| `matlab-run` | Running code without opening MATLAB's window, checking how it ended, and understanding common errors. |
+| `matlab-shared-session` | Working inside the MATLAB you already have open, and leaving your variables and settings as they were. |
+| `matlab-data-files` | Reading and saving CSV, Excel and `.mat` files without losing or changing data. |
+| `matlab-figures` | Making figures at the right size for a paper and checking the saved file. |
+| `matlab-third-party-code` | Using toolboxes and other people's code: what is installed, which function will run, and its licence. |
+| `matlab-writing-code` | Writing functions with a clear help text, an example, input checks and clear error messages. |
+| `matlab-app-design` | Building a small app with a clean look, and checking each screen. |
 
-Left out: Simulink, App Designer's visual editor, MATLAB Compiler and method guides of any field.
+## How to use them
 
-## Use
+Each folder inside `skills/` is one guide. Its main file is `SKILL.md`, and some folders also have a `references/` folder with extra notes.
 
-Each folder inside `skills/` is one skill in the open Agent Skills format: a `SKILL.md` file (a short header with its name and when to use it, then the instructions) and, for some, a `references/` folder the skill points to.
+- If your AI assistant has a skills folder, copy the folders you want there.
+- If it does not, give it the `SKILL.md` file of the guide you need.
 
-Copy the folders you want to wherever your agent reads skills from, or give their `SKILL.md` to an agent that has no skills folder. They work with any agent that can read files and run commands.
+They work with any AI assistant that can read files and run commands on your computer.
 
 ## Licence
 
-MIT. See `LICENSE`. To cite, see `CITATION.cff`.
+MIT. See `LICENSE`. To cite these guides, see `CITATION.cff`.
